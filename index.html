@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+    <style>
+        header{
+            height: 80px;
+  margin: 0;
+  background-color: #ce0505;
+margin-bottom:15px;
+        }
+ 
+.navbar-brand {
+    width: 50px;
+    height: 50px;
+    line-height: 1;
+    font-size: 34px;
+    border-radius: 50%;
+    font-weight: bold;
+    background: #fff;
+    text-align: center;
+    color: #ce0505 !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.createAccount a {
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: .5em 1.5em;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.bg-light {
+    background-color: #ce0505!important;
+    padding-top: 13px;
+}
+header .container{
+    padding:0;
+}
+.breakfast{
+    font-size: 36px;
+  font-weight: bold;
+  color: #192f60;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+article img.img-fluid {
+    width: 130px;
+    height: 95px;
+    border-radius: 10px;
+}
+
+.The-Big-Chill-Cakery {
+ 
+ display: block;
+  font-size: 30px;
+  font-weight: 600;
+
+  text-align: left;
+  color: #192f60;
+}
+.Shop-1-Plot-D-Samruddhi-Complex-Chincholi- {
+ display: block;
+  font-size: 16px;
+
+  text-align: left;
+  color: #636f88;
+}
+.Path-6195 {
+    width: 100%;
+  height: 0;
+  margin: 31px 0 0;
+  border: solid 1px #dedfe5;
+}
+.Bakery-700 {
+
+  font-size: 16px;
+font-weight: 500;
+  text-align: left;
+  color: #192f60;
+}
+.CUISINES-COST-FOR-TWO {
+
+  font-size: 16px;
+
+  text-align: left;
+  color: #636f88;
+}
+.sidelist {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.sidelist li{
+   padding-top:10px;
+  font-size: 16px;
+
+  text-align: left;
+  color: #8c96ab;
+}
+.pagination-lg .page-link {
+    padding: 0.4rem .8em;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    border: 1px solid #8c96ab;
+    color: #8c96ab;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    border-color: #8c96ab;
+    background-color: #8c96ab;
+    border-radius: 7px;
+}
+li.page-item {
+    border-color: #8c96ab;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 7px;
+    color:#8c96ab;
+}
+
+@media (max-width: 768px) {
+    div#navbarSupportedContent {
+    padding: 10px;
+    margin-top: 20px;
+    background:#643e46ff;
+    border: 1px solid #5e5a5a;
+ 
+} 
+div#navbarSupportedContent .createAccount a {
+    margin-left:0;
+    border:none;
+}
+}
+
+
+
+    </style>
+  </head>
+  <body style="background-color: #fbfbfb;">
+      <header>
+          <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> e!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item createAccount">
+              <a class="nav-link" href="#">Create An Account</a>
+            </li>
+         
+          </ul>
+        
+        </div>
+      </nav>
+    </div>
+    </header>
+
+<div class="container">
+    <span class="breakfast">Breakfast Places in Mumbai</span>
+</div>
+
+
+
+<section class="container" style="margin-top: 25px;">
+    <nav class="nav" style="width: 260px;padding: 10px 20px; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);background-color: #fff;">
+    <div style="width: 100%;">
+         <b style="display: block;font-size:18px;font-weight: bold;color: #192f60;">Filters</b>
+   
+    <label class="form-label" style=" font-size: 16px;
+    font-weight: normal;color: #192f60;" for="exampleFormControlSelect1"> Select Location </label>
+        <select class="form-control" style="  border-radius: 3px;
+        border: solid 1px #8c96ab;" id="exampleFormControlSelect1" style="width: 100%;">
+          <option>Select Location</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+
+<ul class="sidelist" style="margin-top:15px;">
+    <label class="form-label" style=" font-size: 16px;
+    font-weight: normal;color: #192f60;margin-bottom: 4px;" for="exampleFormControlSelect1"> Select Location </label>
+    <li style="padding-top:0px"><input type="checkbox" value="North Indian">&nbsp;&nbsp;<span> North Indian</span></li>
+    <li><input type="checkbox" value="North Indian">&nbsp;&nbsp;<span> South Indian</span></li>
+    <li><input type="checkbox" value="North Indian">&nbsp;&nbsp;<span> Chinese </span></li>
+    <li><input type="checkbox" value="North Indian">&nbsp;&nbsp;<span> Fast Food</span></li>
+    <li><input type="checkbox" value="North Indian">&nbsp;&nbsp;<span> Street Food</span></li>
+</ul>
+
+
+<ul class="sidelist" style="margin-top:15px;">
+    <label class="form-label" style=" font-size: 16px;
+    font-weight: normal;color: #192f60;margin-bottom: 4px;" for="exampleFormControlSelect1"> Cost For Two </label>
+    <li style="padding-top:0px"><input type="radio" value="North Indian">&nbsp;&nbsp;<span> Less than Rs.500</span></li>
+    <li><input type="radio" value="North Indian">&nbsp;&nbsp;<span> Rs.500 to Rs.1000 </span></li>
+    <li><input type="radio" value="North Indian">&nbsp;&nbsp;<span> Rs.1000 to Rs.1500 </span></li>
+    <li><input type="radio" value="North Indian">&nbsp;&nbsp;<span> Rs.1500 to Rs.2000 </span></li>
+    <li><input type="radio" value="North Indian">&nbsp;&nbsp;<span> Rs.2000+ </span></li>
+</ul>
+
+<b style="display: block;font-size:18px;font-weight: bold;color: #192f60;">Sort</b>
+<ul class="sidelist" style="margin-top:5px;">
+   
+    <li style="padding-top:0px"><input type="radio" value="North Indian">&nbsp;&nbsp;<span> Price low to high </span></li>
+    <li><input type="radio" value="North Indian">&nbsp;&nbsp;<span> Price high to low </span></li>
+    
+</ul>
+
+    </div>
+    </nav>
+    <article style="
+    background-color: #fbfbfb;padding-top:0;">
+    <div class="itembox" style="margin-bottom:30px;padding: 25px 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff; width: 98%;
+    float: right;">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="images/item1.png" class="img-fluid">
+        </div>
+        <div class="col-md-10">
+            <strong class="The-Big-Chill-Cakery">
+                The Big Chill Cakery
+            </strong>
+              <span class="FORT" style="  font-size: 16px; font-weight: 500; text-align: left;
+              color: #192f60;">
+                FORT
+              </span>
+              <span class="Shop-1-Plot-D-Samruddhi-Complex-Chincholi-">
+                Shop 1, Plot D, Samruddhi Complex, Chincholi …
+              </span>
+        </div>
+        <div class="Path-6195"></div>
+        <br>
+        <table>
+            <tr>
+                <td style="padding:10px 30px;padding-bottom: 0;"><label class="CUISINES-COST-FOR-TWO"> CUISINES: </label></td>
+                <td> <label class="Bakery-700"> Bakery </label></td>
+            </tr>
+            <tr>
+                <td style="padding:10px 30px;padding-top:0;"><span class="CUISINES-COST-FOR-TWO"> COST FOR TWO:  </span></td>
+                <td> <span class="Bakery-700">₹700 </span> </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+    </div>
+  
+
+    <div class="itembox" style="margin-bottom:30px;padding: 25px 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff; width: 98%;
+    float: right;">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="images/item1.png" class="img-fluid">
+        </div>
+        <div class="col-md-10">
+            <strong class="The-Big-Chill-Cakery">
+                The Big Chill Cakery
+            </strong>
+              <span class="FORT" style="  font-size: 16px; font-weight: 500; text-align: left;
+              color: #192f60;">
+                FORT
+              </span>
+              <span class="Shop-1-Plot-D-Samruddhi-Complex-Chincholi-">
+                Shop 1, Plot D, Samruddhi Complex, Chincholi …
+              </span>
+        </div>
+        <div class="Path-6195"></div>
+        <br>
+        <table>
+            <tr>
+                <td style="padding:10px 30px;"><label class="CUISINES-COST-FOR-TWO"> CUISINES: </label></td>
+                <td> <label class="Bakery-700"> Bakery </label></td>
+            </tr>
+            <tr>
+                <td style="padding:10px 30px;"><span class="CUISINES-COST-FOR-TWO"> COST FOR TWO:  </span></td>
+                <td> <span class="Bakery-700">₹700 </span> </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+    </div>
+<div class="clearfix"></div>
+<div style="text-align: center;display: block;">
+    <nav aria-label="..." style="float: right;">
+        <ul class="pagination pagination-lg">
+         
+          <li class="page-item"><a class="page-link" href="#"> &lt; </a></li>
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">
+                1
+              <span class="sr-only">(current)</span>
+            </span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#"> &gt; </a></li>
+        </ul>
+      </nav>
+    </div>
+
+    </article>
+   
+</section>
+<div>&nbsp;</div>
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
